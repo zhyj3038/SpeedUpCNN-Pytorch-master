@@ -11,6 +11,10 @@ GPU is RTX 2060 (6G), So the experiment didn't work well. (No Money)
 
 1. The results of the model without DP or DDP
 
+Run Training Code:   `python Normal/train_XXX.py or train.py`
+
+Run Evaluation Code: `python Normal/eval.py`
+
 |   |Original Model|autocast|autocast+GradScaler|
 |:-:|:-:|:-:|:-:|
 |AP|81.91|84.03|82.20|
@@ -20,6 +24,10 @@ GPU is RTX 2060 (6G), So the experiment didn't work well. (No Money)
 
 2. The results of the model with DP 
 
+Run Training Code:   `python DP/train_XXX.py or train.py` 
+
+Run Evaluation Code: `python DP/eval.py`
+
 |   |Original Model|autocast|autocast+GradScaler|
 |:-:|:-:|:-:|:-:|
 |AP|82.16|81.89|84.09|
@@ -27,7 +35,11 @@ GPU is RTX 2060 (6G), So the experiment didn't work well. (No Money)
 
 ***
 
-3. The results of the model with DDP 
+3. The results of the model with DDP
+
+Run Training Code:   `python DDP/train_XXX.py or train.py`
+
+Run Evaluation Code: `python DDP/eval.py`
 
 |   |Original Model|autocast|autocast+GradScaler|
 |:-:|:-:|:-:|:-:|
