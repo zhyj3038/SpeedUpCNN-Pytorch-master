@@ -11,6 +11,7 @@ This is just a Demo of how to speed up training on a single and multi-GPU (simul
 
 **AlexNet** was taken as the network architecture(**image size** required for input was **227x227x3**) as the datset, **Adamw** as the gradient descent function, and learning rate mechanism as **ReduceLROnPlateau** for example.
 
+You should create your own data(dataset), checkpoint(model save) and tenshorboard(loss visualization) file package
 ***
 
 1.The results of the model without DP or DDP
