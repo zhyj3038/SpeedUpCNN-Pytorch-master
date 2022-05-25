@@ -1,5 +1,5 @@
 ﻿# SpeedUpCNN-Pytorch-master
-This Code describes how to seed up the training of CNN (Convolutional Neural Network), and also shows whether the results change. there are some my Chinese communication websites such as CSDN and Quora (Chinese)-Zhihu where I explain this code. 
+This Code describes how to seed up the training of CNN (Convolutional Neural Network), and also shows whether the results change. there are some my Chinese communication websites such as CSDN and Quora (Chinese)-Zhihu where I explain this code.
 
 [CSDN](https://blog.csdn.net/XiaoyYidiaodiao/article/details/124854343?spm=1001.2014.3001.5501)
 
@@ -7,9 +7,11 @@ This Code describes how to seed up the training of CNN (Convolutional Neural Net
 
 GPU is RTX 2060 (6G), So the experiment didn't work well. (No Money)
 
+This is just a Demo of how to speed up training on a single and multi-GPU (simulation).
+
 ***
 
-1. The results of the model without DP or DDP
+1.The results of the model without DP or DDP
 
 Run Training Code:   `python Normal/train_XXX.py or train.py`
 
@@ -22,7 +24,7 @@ Run Evaluation Code: `python Normal/eval.py`
 
 ***
 
-2. The results of the model with DP 
+2.The results of the model with DP 
 
 Run Training Code:   `python DP/train_XXX.py or train.py` 
 
@@ -35,7 +37,7 @@ Run Evaluation Code: `python DP/eval.py`
 
 ***
 
-3. The results of the model with DDP
+3.The results of the model with DDP
 
 Run Training Code:   `python DDP/train_XXX.py or train.py`
 
