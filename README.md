@@ -9,7 +9,7 @@ GPU is RTX 2060 (6G), So the experiment didn't work well. (No Money)
 
 This is just a Demo of how to speed up training on a single and multi-GPU (simulation).
 
-**AlexNet** was taken as the network architecture(**image size** required for input was **227x227x3**) , CIFAR10 as the datset, **Adamw** as the gradient descent function, and learning rate mechanism as **ReduceLROnPlateau** for example.
+**AlexNet** was taken as the network architecture(**image size** required for input was **227x227x3**) , **CIFAR10** as the datset, **Adamw** as the gradient descent function, and learning rate mechanism as **ReduceLROnPlateau** for example.
 
 You should create your own **data**(dataset), **checkpoint**(model save) and **tenshorboard**(loss visualization) file package.
 
